@@ -1,17 +1,24 @@
-<div class="simple-login-container">
-    <h2>Login Form</h2>
-    <div class="row">
-        <div class="col-md-12 form-group">
-            <input type="text" class="form-control" placeholder="Username">
+<div class="parent">
+   
+    <div class="child">
+        <div class="main">
+            <h2>STUDENT LOGIN</h2>
+
+            <label>Enter E-mail: </label>
+            <input type="text" placeholder="Email ">
+            <br>
+    
+            
+            <label>Password: </label>
+            <input type="password" placeholder="Password">
+            <br>
+            <br>
+            <button routerLink="/dashboard">Login</button>
+            <br><br>
+            <div class="url">
+                <a href="" routerLink="/forgotpassword">forgot password?</a>
+                <a href="" routerLink="register">Register</a>
+        </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12 form-group">
-            <input type="password" placeholder="Enter your Password" class="form-control">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12 form-group">
-            <input routerLink="/dashboard" type="submit" class="btn btn-block btn-login" placeholder="Enter your Password" >
-        </div>
-    </div>
+</div>
