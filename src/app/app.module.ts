@@ -9,6 +9,9 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
+import { HomeComponent } from './components/home/home.component';
+import { CreatestudentComponent } from './components/createstudent/createstudent.component';
+import { AllstudentsComponent } from './components/allstudents/allstudents.component';
 
 
 
@@ -17,7 +20,10 @@ import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.co
     AppComponent,
     LoginComponent,
     DashboardComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    HomeComponent,
+    CreatestudentComponent,
+    AllstudentsComponent
   ],
   imports: [
     BrowserModule,
